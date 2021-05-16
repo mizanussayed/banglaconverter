@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Bijoy - Unicode converter | বিজয় - ইউনিকোড কনভার্টার</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				<h1>Bangla Converter</h1>
+				<p>Uniconde to Bijoy Converter</p>
+				<p>Bijoy to Unicode Converter</p>
+				<div>
+					<input readonly="" type="hidden" name="CharsTyped" size="2" style="font-weight:bold; border: 0px solid #2D69AE; color:#808080; text-align:left;" value="0">
+					<input readonly="" type="hidden" name="WordsTyped" size="3" style="font-weight:bold; border: 1px solid #2D69AE; color:#808080; text-align:right;" value="0">
+					<input readonly="" type="hidden" name="CharsLeft" size="8" value="100000">
+					<input readonly="" type="hidden" name="WordsLeft" size="8" value="100000">
+				</div>
+				<div>
+					<textarea name="unicode" id="EDT"  class="unicode" autofocus="autofocus" value="" placeholder="ইউনিকোড কি-বোর্ডের লেখা এখানে পেস্ট করুন"></textarea>
+					<button class="btn-unicode" onclick="ConvertToTextArea('CONVERTEDT');"  value="" name="ConvertToAsciiButton" ></button>
+					<button class="btn-bijoy" onclick="ConvertFromTextArea('CONVERTEDT');"   value=""  name="ConvertButton"></button>
+					<button class="btn-reset" onclick="clearInput();" ></button>
+					<textarea name="bijoy" id="CONVERTEDT" class="bijoy" autofocus="autofocus"  placeholder="বিজয় কি-বোর্ডের লেখা এখানে পেস্ট করুন" ></textarea>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<script type="text/javascript" src="js/bijoy2uni.js"></script>
+	<script type="text/javascript" src="js/uni2bijoy.js"></script>
+	<script type="text/javascript" src="js/common.js"></script>
+	<script type="text/javascript" src="js/layout.js"></script>
+	<script type="text/javascript" src="js/count.js"></script>
+	<script type="text/javascript">
+		function clearInput()
+		{
+			document.getElementById("EDT").value='';
+			document.getElementById("CONVERTEDT").value='';
+			document.getElementById("EDT").focus();
+		}
+	</script>
+	<script type="text/javascript" src="js/main.js"></script>
+	
+</body>
+</html>

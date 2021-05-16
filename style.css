@@ -1,0 +1,175 @@
+body {
+    padding-bottom: 0px;
+    margin: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    justify-content: center;
+    text-align: center;
+    background-color: silver;
+
+}
+
+
+.container {
+    position: relative;
+    width: 100%;
+    min-height: 400px;
+    clear: both;
+    overflow: hidden;
+  }
+.row {
+    width: 100%;
+}
+.col {
+    position: relative;
+    width: 80%;
+    left: 10%;
+    right: 10%;
+    background:gray;
+}
+}
+form{
+    width: 100%;
+    margin-top: 0px;
+    border: 0px solid red;
+}
+textarea {
+    overflow: auto;
+    background-color: #f8fac6;
+}
+.bijoy{
+    width: 98%;
+    height: 200px;
+    font-family: SutonnyMJ;
+    font-size: 22px;
+    color: #000;
+    border: 1px solid #999;
+    outline: none;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 5px;
+}
+.bijoy:focus {
+    width: 98%;
+    height: 200px;
+    font-family: SutonnyMJ;
+    color: #000;
+    border: 1px solid #5ab4e6;
+    box-shadow: 0 0 5px #7dbef1;
+    -moz-box-shadow: 0 0 5px #7dbef1;
+    -webkit-box-shadow: 0 0 5px #7dbef1;
+}
+.btn-unicode {
+    width: 160px;
+    height: 25px;
+    cursor: pointer;
+    border: 0px solid #2d69ae;
+    margin: 0px;
+    background: url(down.gif) no-repeat left top;
+}
+.btn-bijoy {
+    width: 160px;
+    height: 25px;
+    cursor: pointer;
+    border: 0px solid #2d69ae;
+    margin: 0px;
+    background: url(up.gif) no-repeat left top;
+}
+.btn-reset {
+    width: 112px;
+    height: 25px;
+    cursor: pointer;
+    border: 0px solid #2d69ae;
+    margin: 0px;
+    background: url(reset.gif) no-repeat left top;
+}
+
+.unicode {
+    width: 100%;
+    font-size: 20px;
+    color: #0080ff;
+    text-align: left;
+   
+}
+.unicode {
+    width: 98%;
+    height: 200px;
+    font-family: solaimanLipi;
+    font-size: 22px;
+    color: #000;
+    border: 1px solid #999;
+    outline: none;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 5px;
+}
+.unicode:focus {
+    width: 98%;
+    height: 200px;
+    border: 1px solid #5ab4e6;
+    box-shadow: 0 0 5px #7dbef1;
+    -moz-box-shadow: 0 0 5px #7dbef1;
+    -webkit-box-shadow: 0 0 5px #7dbef1;
+}
+#convert_button {
+    float: left;
+    width: 100%;
+    display: inline;
+    font-size: 13px;
+    padding: 0px 0px 0px 0px;
+}
+#convert_button .convert_button_left {
+    float: left;
+}
+#convert_button .convert_button_right {
+    float: right;
+}
+.bijoy_button {
+    width: 160px;
+    height: 27px;
+    padding-right: 0px;
+    border: none;
+    background: url(../images/convert_down.gif) no-repeat;
+}
+.bijoy_button:hover {
+    width: 160px;
+    height: 27px;
+    padding-right: 0px;
+    cursor: pointer;
+    cursor: hand;
+    background: url(../images/convert_down.gif) 0 -27px no-repeat;
+}
+.unicode_button {
+    width: 160px;
+    height: 27px;
+    padding-right: 0px;
+    border: none;
+    background: url(../images/convert_up.gif) no-repeat;
+}
+.unicode_button:hover {
+    width: 160px;
+    height: 27px;
+    padding-right: 0px;
+    cursor: pointer;
+    cursor: hand;
+    background: url(../images/convert_up.gif) 0 -27px no-repeat;
+}
+.reset_button {
+    width: 115px;
+    height: 27px;
+    padding-right: 0px;
+    border: none;
+    background: url(../images/reset.gif) no-repeat;
+}
+.reset_button:hover {
+    width: 115px;
+    height: 27px;
+    padding-right: 0px;
+    cursor: pointer;
+    cursor: hand;
+    background: url(../images/reset.gif) 0 -27px no-repeat;
+}
+
